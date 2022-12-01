@@ -1,18 +1,18 @@
 import Foundation
 
 
-let current = "02.234"
-let appStore = "02"
+let current = "..0.5"
+let appStore = "..0.4"
 let result = appStore.versionCompare(current)
 
 switch result{
     
 case .orderedSame:
-    print("Equal")
+    print("=")
 case .orderedAscending:
-    print("Ascending")
+    print("<")
 case .orderedDescending:
-    print("Descending")
+    print(">")
 }
 
 
